@@ -45,7 +45,7 @@ Features:
 
 ---
 
-### 08 Syria Idleb Mask Population Map
+### 08 Syria Idleb Population Mask Map
 
 Population raster extraction for Idleb governorate.
 
