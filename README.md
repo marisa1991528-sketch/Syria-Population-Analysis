@@ -1,6 +1,6 @@
 # Syria Population Analysis
 
-Population analysis workflows for Syria using Python, Folium, and open-source geospatial datasets.
+Population analysis and raster processing workflows for Syria using Python, Rasterio, Folium, and open-source geospatial datasets.
 
 ## Contents
 
@@ -59,6 +59,62 @@ Features:
 
 ---
 
+### 14 Raster Resample
+
+Raster downsampling using Rasterio resampling methods.
+
+Features:
+
+- WorldPop population raster
+- Raster resampling
+- Bilinear interpolation
+- Reduced raster size
+- Folium ImageOverlay
+
+---
+
+### 15 Raster Resample Half
+
+GeoTIFF optimisation through resolution reduction.
+
+Features:
+
+- Rasterio average resampling
+- Resolution reduction
+- GeoTIFF optimisation
+- Transform recalculation
+- Lightweight raster generation
+
+---
+
+### 16 Raster Reprojection
+
+Coordinate reference system transformation for raster data.
+
+Features:
+
+- CRS inspection
+- EPSG:4326 to EPSG:3857 conversion
+- Raster reprojection
+- Web Mercator compatibility
+- GeoTIFF generation
+
+---
+
+### 19 Raster Normalization
+
+Data preprocessing using Min-Max Normalization.
+
+Features:
+
+- NumPy array processing
+- Min-Max Normalization
+- Value scaling (0–1)
+- Raster preprocessing workflow
+- Data standardisation
+
+---
+
 ## Data Sources
 
 ### Administrative Boundaries
@@ -68,8 +124,7 @@ Features:
 
 ### Population Raster
 
-- WorldPop
-- Syrian Arab Republic 100m Population 2026
+- WorldPop：Syrian Arab Republic 100m Population 2026
 
 ### Basemaps
 
@@ -100,5 +155,9 @@ Features:
 - Zonal statistics
 - GeoTIFF generation
 - Log transformation
+- Raster resampling
+- Raster reprojection
+- CRS transformation
+- Min-Max Normalization
 - ImageOverlay rendering
 - Proportional symbol mapping
